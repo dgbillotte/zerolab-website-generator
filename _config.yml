@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: John Doe
 language: en
-timezone: ''
+timezone: 'US/Arizona'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -101,5 +101,10 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy:
+  # type: ''
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/dgbillotte/zerolab-website.git
+  branch: zero
+
