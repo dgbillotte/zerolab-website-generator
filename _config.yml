@@ -105,6 +105,7 @@ theme: landscape
   # type: ''
 deploy:
   type: git
-  repo: https://github.com/dgbillotte/zerolab-website.git
-  branch: zero
+  repo: git@github.com:dgbillotte/zerolab-website.git
+  branch: master
+  message: commit from hexo
 
