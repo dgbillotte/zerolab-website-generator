@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 
-@font-face {
+
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Major+Mono+Display&family=Train+One&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500&family=Gayathri:wght@100;400;700&display=swap');
+
+/* @font-face {
     font-family: GoodTimes;
     src: url('../font/Typodermic - GoodTimesRg-Regular.ttf') format('truetype'), url('../font/Typodermic - GoodTimesRg-Regular.otf') format('opentype');
-}
+} */
 
 body {
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Bai Jamjuree', sans-serif;
     background: #f5f7f8;
     cursor: url('../img/cursor.png'), auto;
 }
@@ -16,11 +21,17 @@ a {
 }
 
 .logo {
-    font-family: GoodTimes, Lato, sans-serif;
+    /* font-family: GoodTimes, Lato, sans-serif; */
+    font-family: 'Train One';
     text-transform: uppercase;
 }
 .page-navbar.navbar {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+    /* margin-left: 0!important; */
+    margin-right: 0!important;
 }
 
 .page-navbar .navbar-nav .nav-item a {
@@ -39,7 +50,7 @@ a {
 }
 
 .page-navbar .logo {
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .page-navbar.fixed-top + .page {
@@ -48,7 +59,8 @@ a {
 
 .gradient {
     /* background: linear-gradient(120deg, #7f70f5, #0ea0ff); */
-    background: linear-gradient(120deg, #000000, #0ea0ff);
+    /* background: linear-gradient(120deg, #000000, #0ea0ff); */
+    background: gray;
     color: #fff !important;
 }
 
@@ -98,8 +110,8 @@ a {
 
 @media (min-width: 576px) {
     .navbar {
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
+        /* padding-top: 1.2rem;
+        padding-bottom: 1.2rem; */
     }
 }
 
@@ -184,7 +196,15 @@ a {
     .item-1 h1 {
         font-size: 24px;
     }
+    .item-2 {
+        grid-column: 3 / span 2;
+    }
+    .item-2 h1 {
+        font-size: 24px;
+    }    
 }
+
+
 
 .paginationbtn {
     text-align: center;
@@ -201,7 +221,12 @@ a {
 .blogPost {
     margin-top: 5% !important;
 }
-
+@media (min-width: 576px) {
+    .blogPost > .row > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
 .meta {
     color: #6c757d;
     opacity: 0.8;
