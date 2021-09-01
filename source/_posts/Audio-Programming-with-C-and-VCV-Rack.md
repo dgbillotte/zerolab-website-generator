@@ -1,7 +1,7 @@
 ---
 title: Audio Programming with C++ and VCV Rack
 date: 2021-08-28 18:08:52
-featured_image: 2021/08/29/Audio-Programming-with-C-and-VCV-Rack/post2-patch.jpg
+featured_image: 2021/08/28/Audio-Programming-with-C-and-VCV-Rack/post2-patch.jpg
 tags:
 ---
 <!-- # Audio Programming with C++ and VCV Rack -->

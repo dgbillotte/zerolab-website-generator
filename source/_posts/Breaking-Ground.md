@@ -1,7 +1,7 @@
 ---
 title: Breaking Ground, part Deux
 date: 2021-08-07 20:16:55
-featured_image: 2021/08/08/Breaking-Ground/235-no-valve-cover.jpg
+featured_image: 2021/08/07/Breaking-Ground/235-no-valve-cover.jpg
 tags:
 ---
 
