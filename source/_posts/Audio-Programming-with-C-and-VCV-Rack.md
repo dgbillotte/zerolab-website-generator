@@ -69,12 +69,12 @@ This doesn't speak to the editor or terminal/shell program you use, so it really
 Follow the [guide](https://vcvrack.com/manual/Building) in the manual to install the necessary build tools and libraries for your development system. You can stop when you get to the section labeled "Building Rack".
 
 #### Install VCV Rack SDK
-Download the latest [Rack SDK](https://vcvrack.com/downloads/) (it was 1.1.6 as of this writing) and unzip it to a directory of your choosing, let's call this <MY_RACKSDK_DIR>.
+Download the latest [Rack SDK](https://vcvrack.com/downloads/) (it was 1.1.6 as of this writing) and unzip it to a directory of your choosing, let's call this MY_RACKSDK_DIR.
 
 #### Set the $RACK_DIR environment var
 
 ```
-export RACK_DIR='<MY_RACKSDK_DIR>'
+export RACK_DIR='MY_RACKSDK_DIR'
 ```
 
 You will probably want to add that to your shell config file (.zshrc, .bashrc, ...) after you type it a couple times...
