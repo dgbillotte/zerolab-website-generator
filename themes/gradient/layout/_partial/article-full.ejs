@@ -4,19 +4,24 @@
             <h2 class="blog-post-title">
                 <%- item.title || item.link%>
             </h2>
+            <% if(page.layout == 'post') { %>
             <p class="meta">
                 <i class="far fa-clock"></i>
                 <%= item.date.format(config.date_format) %> <%- partial('categories', {item: item}) %>
             </p>
+            <% } %>
             <!-- Content -->
             <%- item.content %>
             <br />
             <p class="meta">
                 <%- partial('tags', {item: item}) %>
             </p>
+
+            <% if(page.layout == 'post') { %>
             <div class="commentbox"></div>
 <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
 <script>commentBox('5640004629954560-proj')</script>
+            <% } %>
         </div>
 
         <div class="col-sm-3">
