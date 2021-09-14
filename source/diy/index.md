@@ -1,38 +1,38 @@
 ---
-title: "DIY Stuff : How-To's, References, and Killer Links"
+title: "DIY Stuff : How-To's, Resources, & Tools"
 ---
 Below are links to all kinds of resources that I have found to be interesting, entertaining, and/or educational as I explore different ways of getting electronics to burp out sounds.
 
-### Audio Creation and Programming
-- [VCV Rack](https://vcvrack.com/) (open source) is a virtual Eurorack modular synthesizer that is a blast to play with, if you like that kind of thing, and also a great environment to learn about DSP and audio programming
+### Audio Creation and Programming Software / Tools
+- [VCV Rack](https://vcvrack.com/) (open source) is a virtual Eurorack modular synthesizer that is a blast to play with, if you like that kind of thing, and also a great environment to learn about DSP and audio programming.
 
-- [Audacity](https://www.audacityteam.org/) (open source) is an easy to use and feature-rich application for recording and editing .wav files on Windows/macOS/Linux. It supports multi-track recording and editing as well VST, AU, and other plugin formats so you can bring all of your toys with you
+- [Audacity](https://www.audacityteam.org/) (open source) is an easy to use and feature-rich application for recording and editing .wav files on Windows/macOS/Linux. It supports multi-track recording and editing as well VST, AU, and other plugin formats so you can bring all of your toys with you.
 
-- [Pd](https://puredata.info/) (open source) is a visual programming enviornment written by [Miller S. Puckette](http://msp.ucsd.edu/) specifically for creating interactive music and multimedia works. Pd was the basis for what would become [MaxMSP](https://cycling74.com/products/max)
+- [Pd](https://puredata.info/) (open source) is a visual programming enviornment written by [Miller S. Puckette](http://msp.ucsd.edu/) specifically for creating interactive music and multimedia works. Pd was the basis for what would become [MaxMSP](https://cycling74.com/products/max).
 
 - [SuperCollider](https://supercollider.github.io/) (open source) "is a platform for audio synthesis and algorithmic composition..."
 
-- [TidalCycles](https://tidalcycles.org/) (open source) is a little harder to describe... It is a "live coding" pattern language intended for real-time improvisation and composition. It is really incredible what you can get going with this with a tiny amount of code. Tidal runs on top of SuperCollider (above)
+- [TidalCycles](https://tidalcycles.org/) (open source) is a little harder to describe... It is a "live coding" pattern language intended for real-time improvisation and composition. It is really incredible what you can get going with this with a tiny amount of code. Tidal runs on top of SuperCollider (above).
 
 - [Inkscape](https://inkscape.org/) (open source) is an all around nice SVG/vector-image editor. Not audio-related, but I use it primarily for creating graphics for VCV Rack modules, so here it is.
 
 
 ### Analog Electronics and DIY Audio / Modular Synthesizer Stuff
-#### Places to Learn Stuff
+#### Places to Learn Stuff:
 - [Doepfer - the Eurorack O.G.](https://doepfer.de/) In case you don't know, Dieter Doepfer invented the eurorack format in 1996. Here are manuals for every module they've built since then as well as a wealth of good DIY info. You have to dig around a little to find some of the good stuff, like:
     - The [original specs](https://doepfer.de/a100_man/a100t_e.htm) for [eurorack](https://doepfer.de/a100_man/a100m_e.htm)
     - The [A-100 DIY page ](https://doepfer.de/DIY/a100_diy.htm)
     - [Analysis of a vactrol filter](https://doepfer.de/a1011_tec.htm)
     - and, Deiter's own [A-100 further reading](https://doepfer.de/a100_man/a100b_e.htm) list
 - [MFOS](http://musicfromouterspace.com/): This is a DIY haven and where it all started for me. Ray Wilson's [Make: Analog Synthesizers](https://www.amazon.com/Make-Analog-Synthesizers-Ray-Wilson/dp/1449345220/ref=sr_1_1?ie=UTF8&qid=1367955744&sr=8-1&keywords=make+analog+synthesizers) got me really interested and an [Alien Screamer](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=ALIENSCREAMER/ALIENSCREAMER.php&VPW=1670&VPH=790) was the first "synthesizer" kind of thing that I ever built and I was hooked. Thanks Ray!
-- [Birth of a Synth](https://www.birthofasynth.com/): On this site, Scott Stites documents both his synthesizer designs as well as those of the famous Thomas Henry. All of Scott's write ups are worth reading, but I really enjoy the write ups on Mr. Henry's designs. I've probably learned more about analog synthesizer circuits from Thomas's designs that any other single source
+- [Birth of a Synth](https://www.birthofasynth.com/): On this site, Scott Stites documents both his synthesizer designs as well as those of the famous Thomas Henry. All of Scott's write ups are [worth reading](https://www.birthofasynth.com/Scott_Stites/Pages/dualms20_main.html), but I especially enjoy the write ups on [Mr. Henry's designs](https://www.birthofasynth.com/Thomas_Henry/TH_main.html). I've probably learned more about analog synthesizer circuits from Thomas's designs that any other single source
 - [Synths'R'Us](https://www.schmitzbits.de/index.html): has circuits for all of the core synthesizer components and some great reading on using and designing for OTAs
+- [Electric Druid](https://electricdruid.net/category/synth-diy/): Some great in-depth articles about how some historic equipment works and projects with very detailed write-ups and nice schematics. They also sell some of their own unique synth chips as well as some of the standards by CEM, Alfa, and more.
+- [Barton Musical Circuits](https://bartonmusicalcircuits.com/synthstuff.html): Michael has designed and built a lot of different kinds of modules and makes all of the build information available for every one of them, including breaking down each module into its core blocks and describing how they work. He also sells PCBs and blank panels for most of his modules
+- [AI Synthesis](https://aisynthesis.com/): Abe from AI has a passion for modular and a passion for education. Abe designs and sells modular kits that are high quality, designed to be easy to build, and very affordable. He also offers up a lot of information about getting started
+- [Richard Brewster's Electronic Sounds](https://pugix.com/): Mr. Brewster provides reviews of synthesizer modules, build write-ups for kits, and lots of information about [ciat-lonbarde](http://ciat-lonbarde.net/) if you're into that kinda thing :-D
 - [Skull & Circuits](https://www.skullandcircuits.com/): offers very informative write-ups on the projects presented and digs into some of the design challenges that come up
 - [Personal web pages of Tim Stinchcombe](http://www.timstinchcombe.co.uk/index.php?pge=synth): There is a lot of stuff here. From Tim's modifications to stock Doepfer modules, to several DIY modules, to a *lot* of information about filters including links to academic work
-- [Richard Brewster's Electronic Sounds](https://pugix.com/): Mr. Brewster provides reviews of synthesizer modules, build write-ups for kits, and lots of information about [ciat-lonbarde](http://ciat-lonbarde.net/) if you're into that kinda thing :-D
-- [AI Synthesis](https://aisynthesis.com/): Abe from AI has a passion for modular and a passion for education. Abe designs and sells modular kits that are high quality, designed to be easy to build, and very affordable. He also offers up a lot of information about getting started
-- [Electric Druid](https://electricdruid.net/category/synth-diy/)
-- [Barton Musical Circuits](https://bartonmusicalcircuits.com/synthstuff.html): Michael has designed and built a lot of different kinds of modules and makes all of the build information available for every one of them, including breaking down each module into its core blocks and describing how they work. He also sells PCBs and blank panels for most of his modules
 - [Open Music Labs](http://www.openmusiclabs.com/projects/index.html)
 
 #### Tools:
@@ -45,15 +45,16 @@ Below are links to all kinds of resources that I have found to be interesting, e
         - [Gyrator](https://www.falstad.com/circuit/e-gyrator.html)
         - You can get to active filters and other circuits not listed on the webpage above by going to the "Circuit" menu item in the program
     - very smooth animations that are interactive and nicely visualize both voltage and current. The simulation can also be run at a wide range of speeds, upto audio rate and it does have a speaker output...
-- [Arduino](https://www.arduino.cc/): Go [build stuff](https://www.instructables.com/circuits/arduino/projects/) or build stuff that [builds stuff](https://create.arduino.cc/projecthub/projects/tags/cnc), or [WOW](https://www.instructables.com/Kerbal-Controller-the-Basics/)!
+- [Arduino](https://www.arduino.cc/): (open source) Go [build stuff](https://www.instructables.com/circuits/arduino/projects/) or build stuff that [builds stuff](https://create.arduino.cc/projecthub/projects/tags/cnc), or [WOW](https://www.instructables.com/Kerbal-Controller-the-Basics/)!
 - [KiCad](https://www.kicad.org/): (open source) is a circuit and PCB layout tool for macOS/Linux/Windows. KiCad is very widely used in the DIY community and can get you from ideas/schematics to being ready to hit "order" on a batch of 10 prototype PCBs that will be at your house in 2 weeks. I was a little intimidated to jump in here, but this [tutorial]() got me feeling comfortable pretty quick. 
 
 #### Where to Buy Kits and Parts
 - Synth/Audio DIY kits, parts, & built units
-    - [Modular Addict](https://modularaddict.com/) DIY kits, parts, & built units
-    - [SynthCube](https://synthcube.com/cart/) DIY kits, parts, & built units
-    - [Synthrotek](https://store.synthrotek.com/) DIY kits, parts, & built units
-    - [Thonk](https://www.thonk.co.uk/) DIY kits, parts, & built units
+    - [Electric Druid](https://electricdruid.net/shop/)
+    - [Modular Addict](https://modularaddict.com/)
+    - [SynthCube](https://synthcube.com/cart/)
+    - [Synthrotek](https://store.synthrotek.com/)
+    - [Thonk](https://www.thonk.co.uk/)
 - General Hobby Electronics
     - [Small Bear Electronics](https://smallbear-electronics.mybigcommerce.com/)
     - [Futurlec](https://futurlec.com/)
