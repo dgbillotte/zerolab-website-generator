@@ -8,6 +8,10 @@
     margin-top: 1.5rem;
 }
 
+main {
+    background-image: url("/img/worn-graph-paper-background.jpg")
+}
+
 /* .bash.highlight {
     background-color: gray;
 }
